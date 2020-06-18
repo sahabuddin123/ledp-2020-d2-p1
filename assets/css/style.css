@@ -47,7 +47,9 @@ Project Section:
 	height: 50px;
 	width: 100%;
 	line-height: 50px;
-
+	z-index:22222;
+	position: sticky;
+	top: -60px;
 }
 .top_list{
 	list-style: none;
@@ -69,10 +71,15 @@ Project Section:
 					Nav Header CSS Start
 ***********************************************************************************************/
 .navsection{
-	background: #f8f9fa;
+	background: rgba(254, 255, 255, .8);
+	position: sticky;
+	top: 0;
+	z-index: 1111;
+
 }
 .navbar{
 	padding-left: 0px !important;
+	z-index: 11111;
 }
 .nav-link{
 	font-weight: bold !important;
@@ -89,6 +96,10 @@ Project Section:
 /**********************************************************************************************
 					Slider Section CSS Start
 ***********************************************************************************************/
+.slider{
+	margin-top: -120px;
+	z-index: -1111;
+}
 .btn {
 	border-radius: 0px !important;
 	font-weight: bold;
