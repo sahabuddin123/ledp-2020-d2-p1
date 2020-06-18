@@ -9,6 +9,7 @@ Project Section:
 				1.Top Header
 				2.Nav Header
 				3.Slider Section
+				4.About Section
 **********************************************************************************************
 **********************************************************************************************/
 
@@ -18,6 +19,13 @@ Project Section:
 *,body{
 	padding: 0;
 	margin: 0;
+}
+h2{
+	font-weight: bold;
+}
+.row{
+	margin-right: 0px !important;
+	margin-left: 0px !important;
 }
 /**********************************************************************************************
 					Base CSS End
@@ -36,6 +44,13 @@ Project Section:
 }
 .second_bg_color{
 	background-color: #1e1d1d;
+}
+.commn_margin{
+	margin-top: 80px;
+}
+.custom_left_margin{
+	margin-left: 7%;
+	margin-right: 0px !important
 }
 /**********************************************************************************************
 					Common CSS End
@@ -122,4 +137,29 @@ Project Section:
 }
 /**********************************************************************************************
 					Slider Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					About Section CSS Start
+***********************************************************************************************/
+.custom_h2{
+	font-size: 36px !important;
+}
+.custom_padding{
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.about_bg{
+	background-image: url(../img/acadimy.png);
+	height: 250px;
+	width: 100%;
+	margin-left: 19%;
+}
+.principle_img{
+	height: 100%;
+	width: 40%;
+	margin-top: 5%;
+	margin-left: -10%;
+}
+/**********************************************************************************************
+					About Section CSS End
 ***********************************************************************************************/
