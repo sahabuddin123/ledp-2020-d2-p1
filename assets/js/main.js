@@ -3,6 +3,7 @@ $('.owl-carousel').owlCarousel({
     margin:10,
     nav:true,
     dots:false,
+    autoplay:true,
     navText: ['<i class="fa fa-chevron-left font_35" aria-hidden="true"></i>','<i class="fa fa-chevron-right font_35" aria-hidden="true"></i>'],
     responsive:{
         0:{
