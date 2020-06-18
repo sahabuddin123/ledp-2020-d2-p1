@@ -89,7 +89,26 @@ Project Section:
 /**********************************************************************************************
 					Slider Section CSS Start
 ***********************************************************************************************/
+.btn {
+	border-radius: 0px !important;
+	font-weight: bold;
+}
 
+.carousel-caption {
+	width: 450px;
+	height: 300px;
+    position: absolute; 
+    bottom: 25%; 
+    left: 55%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+.btn-success-color{
+	color: ;
+}
 /**********************************************************************************************
 					Slider Section CSS End
 ***********************************************************************************************/
