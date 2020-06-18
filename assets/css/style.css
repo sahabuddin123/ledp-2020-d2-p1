@@ -42,6 +42,12 @@ Project Section:
 /**********************************************************************************************
 					Top Header CSS Start
 ***********************************************************************************************/
+#top{
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+
+}
 .top_list{
 	list-style: none;
 }
@@ -50,6 +56,10 @@ Project Section:
 }
 .top_list li:first-child{
 	padding-left: 0px !important;
+}
+.login_border{
+	padding-left: 10px;
+	color: #c7c7c7;
 }
 /**********************************************************************************************
 					Top Header CSS End
