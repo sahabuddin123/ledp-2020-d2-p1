@@ -481,6 +481,10 @@ input[type=email]::placeholder {
   .custom_pt_news{
   	margin-top: 15px;
   }
+  .custom_padding_l{
+  	padding-left: 0px !important;
+
+  }
 }
 /**********************************************************************************************
 					Responsive CSS End
