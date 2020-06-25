@@ -13,6 +13,7 @@ Project Section:
 				5.Courses Section
 				6.Facts Section
 				7.Recent News Section
+				8.News Letter Section
 **********************************************************************************************
 **********************************************************************************************/
 
@@ -64,6 +65,12 @@ ul{
 	border: none;
 	background: none;
 	color: black;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
 }
 /**********************************************************************************************
 					Base CSS End
@@ -344,7 +351,7 @@ padding-bottom: 80px !important;
 					Recent News Section CSS End
 ***********************************************************************************************/
 /**********************************************************************************************
-					Recent News Section CSS Start
+					News Letter Section CSS Start
 ***********************************************************************************************/
 .newsletter{
 padding-top: 80px;
@@ -365,11 +372,48 @@ input[type=email] {
 input[type=email]:focus {
   border:1px solid #fff !important;
 }
+input[type=email]::placeholder {
+  color:white;
+}
 .mailbtn{
 	padding: 10px 15px;
 	border-color: #9bc887;
 
 }
 /**********************************************************************************************
-					Recent News Section CSS End
+					News Letter Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					News Letter Section CSS Start
+***********************************************************************************************/
+.footer{
+	
+	background-color: #1e1d1d;
+}
+.custom_padding_footer{
+	padding-top: 80px;
+}
+.custom_padding_l{
+	padding: 10px;
+}.custom_padding_t{
+	padding-top: 10px;
+}
+.list{
+	list-style: none;
+	padding-top: 20px;
+}
+.footer_text{
+	padding-top: 25px;
+}
+.list li{
+	color: white;
+	padding-left: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.col-6{
+	padding-left: 0px !important; 
+}
+/**********************************************************************************************
+					News Letter Section CSS End
 ***********************************************************************************************/
