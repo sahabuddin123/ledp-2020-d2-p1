@@ -11,6 +11,8 @@ Project Section:
 				3.Slider Section
 				4.About Section
 				5.Courses Section
+				6.Facts Section
+				7.Recent News Section
 **********************************************************************************************
 **********************************************************************************************/
 
@@ -264,7 +266,75 @@ ul{
 }
 .custom_row{
 	padding-top: 5%;
+	padding-bottom: 5%;
 }
+
 /**********************************************************************************************
 					Facts Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Recent News Section CSS Start
+***********************************************************************************************/
+.news{
+	padding-top: 80px;
+}
+.news-heading{
+	padding-bottom: 50px;
+}
+.custom_body{
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	border-color: #f1f1f1 !important;
+}
+.custom_body p{
+	margin: 0px !important;
+	margin-bottom: 5px !important;
+}
+.custom_card_img{
+	width: 230px;
+}
+.custom_body_2{
+	padding: 10px;
+	padding-left: 20px !important;
+}
+.custom_body_2 p{
+	padding: 0px !important;
+	margin: 0px !important;
+	margin-bottom: 1px;
+}
+/**********************************************************************************************
+					Recent News Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Recent News Section CSS Start
+***********************************************************************************************/
+.testimonial{
+padding-top: 80px;
+background-image: url(../img/lacture_bg.png);
+height: 100vh;
+}
+.testimonial-heading{
+	padding-bottom: 50px;
+}
+
+.custom_image{
+	height: 100px !important;
+	width: 100px !important;
+	z-index: 1111;
+
+}
+.z_calsss{
+	z-index: 1111;
+}
+.custom_test_card{
+	padding: 20px !important;
+	padding-top: 80px !important;
+
+}
+.custom_card_main{
+	margin-top: -50px;
+	z-index: -1111;
+}
+/**********************************************************************************************
+					Recent News Section CSS End
 ***********************************************************************************************/
