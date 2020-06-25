@@ -334,6 +334,10 @@ height: 100vh;
 .custom_card_main{
 	margin-top: -50px;
 	z-index: -1111;
+	border: 20px solid transparent;
+	padding: 15px;
+	border-image: url(http://satech360.ebookstand.net/wp-content/uploads/2020/04/css_border_image.jpg) 50% round;
+	border-top: none !important;
 }
 /**********************************************************************************************
 					Recent News Section CSS End
