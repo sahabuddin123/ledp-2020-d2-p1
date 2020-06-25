@@ -37,3 +37,18 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+
+    $(window).scroll(function(){
+
+        var top = $(window).scrollTop();
+        if(top>=60){
+            $("#navstart").addClass('secondary-dark-blue-bg');
+            $("#navstart").removeClass('custom_nv_bg_col');
+        }
+
+        else
+            if($("#navstart").hasClass('secondary-dark-blue-bg')){
+                $("#navstart").removeClass('secondary-dark-blue-bg');
+                $("#navstart").addClass('custom_nv_bg_col');
+            }
+    });
