@@ -14,6 +14,7 @@ Project Section:
 				6.Facts Section
 				7.Recent News Section
 				8.News Letter Section
+				9.Footer Section
 **********************************************************************************************
 **********************************************************************************************/
 
@@ -318,7 +319,7 @@ a:hover{
 .testimonial{
 padding-top: 80px;
 background-image: url(../img/lacture_bg.png);
-height: 110vh;
+
 padding-bottom: 80px !important;
 }
 .testimonial-heading{
@@ -384,8 +385,9 @@ input[type=email]::placeholder {
 					News Letter Section CSS End
 ***********************************************************************************************/
 /**********************************************************************************************
-					News Letter Section CSS Start
+					Footer Section CSS Start
 ***********************************************************************************************/
+
 .footer{
 	
 	background-color: #1e1d1d;
@@ -395,6 +397,7 @@ input[type=email]::placeholder {
 }
 .custom_padding_l{
 	padding: 10px;
+	padding-left: 50px;
 }.custom_padding_t{
 	padding-top: 10px;
 }
@@ -405,7 +408,7 @@ input[type=email]::placeholder {
 .footer_text{
 	padding-top: 25px;
 }
-.list li{
+.footer .list li{
 	color: white;
 	padding-left: 0px;
 	padding-top: 3px;
@@ -414,6 +417,71 @@ input[type=email]::placeholder {
 .col-6{
 	padding-left: 0px !important; 
 }
+.footer_bottom{
+	padding: 0;
+	margin: 0;
+	border-top: 2px solid #56ab2f;
+	/*line-height: 100px;*/
+	background-color: #1e1d1d;
+	padding-top: 10px;
+}
+.custom_list{
+	padding-top: 0px !important;
+	text-align: right !important;
+}
+.custom_list li {
+	height: 35px !important;
+	width: 35px !important;
+	background-color: transparent;
+	border: 1px solid #56ab2f;
+	margin-left: 5px;
+	border-radius: 50%;
+}
+.custom_list li a{
+	text-align: center;
+	padding-right: 0px;
+	font-size: 12px;
+	color: white;
+}
+.c_p{
+	padding-right: 3px;
+}
+.custom_list li a:first-child{
+	
+	padding-right: 10px;
+}
+.custom_list li a:hover{
+	color: #56ab2f;
+}
 /**********************************************************************************************
-					News Letter Section CSS End
+					Footer Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Responsive CSS Start
+***********************************************************************************************/
+@media only screen and (max-width: 797px) {
+  .d_class{
+  	display: none;
+  	color: transparent;
+  }
+  .about_bg{
+  	margin-left: 0px !important;
+  }
+  .custom_card_img{
+  	width: 100%;
+  	height: 280px;
+  }
+  .copy{
+  	text-align: center;
+  }
+  .facts_custom{
+  	text-align: center;
+  	padding-bottom: 10px;
+  }
+  .custom_pt_news{
+  	margin-top: 15px;
+  }
+}
+/**********************************************************************************************
+					Responsive CSS End
 ***********************************************************************************************/
