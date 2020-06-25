@@ -311,7 +311,8 @@ ul{
 .testimonial{
 padding-top: 80px;
 background-image: url(../img/lacture_bg.png);
-height: 100vh;
+height: 110vh;
+padding-bottom: 80px !important;
 }
 .testimonial-heading{
 	padding-bottom: 50px;
@@ -338,6 +339,36 @@ height: 100vh;
 	padding: 15px;
 	border-image: url(http://satech360.ebookstand.net/wp-content/uploads/2020/04/css_border_image.jpg) 50% round;
 	border-top: none !important;
+}
+/**********************************************************************************************
+					Recent News Section CSS End
+***********************************************************************************************/
+/**********************************************************************************************
+					Recent News Section CSS Start
+***********************************************************************************************/
+.newsletter{
+padding-top: 80px;
+height: 40vh;
+}
+.newsletter-heading{
+}
+
+input[type=email] {
+  width: 300px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  border:1px solid #fff !important;
+  color: white;
+}
+input[type=email]:focus {
+  border:1px solid #fff !important;
+}
+.mailbtn{
+	padding: 10px 15px;
+	border-color: #9bc887;
+
 }
 /**********************************************************************************************
 					Recent News Section CSS End
